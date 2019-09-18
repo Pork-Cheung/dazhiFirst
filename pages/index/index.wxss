@@ -11,10 +11,10 @@
     width: 100%;
     
 }
-/* 
+
 .section{
-  border-bottom: 10px solid gray;
-} */
+  margin-bottom: 10rpx;
+} 
 .header{
   height: 30px;
   display: flex;
@@ -39,7 +39,6 @@
 .department{
   height: 70px;
   width: 50px;
-  border: 1px solid red;
   position: relative;
 }
 .department image{
