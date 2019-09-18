@@ -1,0 +1,38 @@
+
+<view class="container">
+  <view class="headInfo">
+    <view class="headPhoto">
+      <image src="/images/headPhto.jpg" style="height: 100%; width: 100%; border-radius: 50%;"></image>
+    </view>
+    <view class="info">
+      <view>{{patientName}}</view>
+      <view>{{patientID}}</view>
+    </view>
+  </view>
+
+  <view class="section">
+    <view class="icon"></view>
+    <view class="text">就诊人管理</view>
+    <view class="sign"></view>
+  </view>
+
+  <view class="section">
+    <view class="icon"></view>
+    <view class="text">就诊记录</view>
+    <view class="sign"></view>
+  </view>
+
+  <view class="section">
+    <view class="icon"></view>
+    <view class="text">身份认证</view>
+    <view class="sign"></view>
+  </view>
+
+  <view class="section">
+    <view class="icon"></view>
+    <view class="text">设置</view>
+    <view class="sign"></view>
+  </view>
+
+  
+</view>

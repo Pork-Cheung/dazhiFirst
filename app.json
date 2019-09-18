@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/makeappointment/makeappointment",
+    "pages/user/user"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "易达预约挂号平台",
+    "navigationBarTextStyle": "black"
+  },
+
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/home0.png",
+        "selectedIconPath": "images/home1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/makeappointment/makeappointment",
+        "iconPath": "images/order0.png",
+        "selectedIconPath": "images/order1.png",
+        "text": "预约"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "images/user0.png",
+        "selectedIconPath": "images/user1.png",
+        "text": "个人中心"
+      }
+    ]
+  },
+  
+
+  "sitemapLocation": "sitemap.json"
+}

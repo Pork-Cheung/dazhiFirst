@@ -1,0 +1,53 @@
+/* components/docCard.wxss */
+
+.container{
+  position: relative;
+  border-bottom: 1px solid gray;
+  height: 200rpx;
+  width: 100%;
+}
+
+.headPhoto{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 150rpx;
+  width: 150rpx;
+  border-radius: 50%;
+}
+
+.header{
+  position: absolute;
+  left: 150rpx;
+  top: 0px;
+  width: 300rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.docName{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.introduce{
+  position: absolute;
+  left: 150rpx;
+  top:80rpx;
+  height: 114rpx;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: flex-start;
+
+  display: -webkit-box;
+  word-break: break-all;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 28rpx;
+
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp:3;
+
+
+}

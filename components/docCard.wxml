@@ -1,0 +1,14 @@
+<!--components/docCard.wxml-->
+<docCard>
+  <view class="container">
+    <view><image class="headPhoto" src="{{headPhoto}}"></image></view>
+    <view class="header">
+      <view class="docName">{{docName}}</view>
+      <view>{{docTitle}}</view>
+      <view>{{department}}</view>
+    </view>
+    <view class="introduce">
+      {{introduce}}
+    </view>
+  </view>
+</docCard>

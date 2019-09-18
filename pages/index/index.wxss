@@ -1,0 +1,61 @@
+/**index.wxss**/
+
+.topSwiper{
+  height:150px;
+  width: 100%;
+  top: 0px;
+}
+
+.slide-image{
+    height: 100%;
+    width: 100%;
+    
+}
+
+.section{
+  border-bottom: 10px solid gray;
+}
+.header{
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  font: 20px;
+}
+
+.header-title-right{
+  color: rgb(255, 115, 0);
+  font-size: 12px;
+}
+
+.departments{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.department{
+  height: 70px;
+  width: 50px;
+  border: 1px solid red;
+  position: relative;
+}
+.department image{
+  width: 50px;  
+  height: 50px;
+}
+.dpmName{
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+  justify-content: center;
+}
+.searchbar{
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  opacity: 0.5;
+}

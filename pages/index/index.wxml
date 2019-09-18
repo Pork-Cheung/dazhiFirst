@@ -1,0 +1,35 @@
+<!--index.wxml-->
+<view class="container">
+  <!-- 首页幻灯片 -->
+  <view class="topSwiper">
+    <swiper indicator-dots="{{indicatorDots}}" circular="{{circular}}"
+      autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+      <block wx:for="{{imgUrls}}" wx:key="{{index}}">
+        <swiper-item>
+          <image src="{{item}}" class="slide-image" mode="scaleToFill"/>
+        </swiper-item>
+      </block>
+    </swiper>
+    <mp-searchbar class="searchbar" placeholder="请输入关键字搜索" bindselectresult="selectResult" search="{{search}}"></mp-searchbar>
+  </view>
+
+  <view class="section">
+    <view class="header">
+      <text>热门科室</text>
+      <text class="header-title-right">更多科室</text>
+    </view>
+    <view class="departments">
+      <view class="department" wx:for="{{departments}}" wx:key="index">
+        <image src="{{item}}"/>
+        <view class="dpmName">{{index}}</view>
+      </view>
+    </view>
+  </view>
+
+  <view class="section">
+    <view class="header">
+      <text>推荐医生</text>
+    </view>
+    <docCard wx:for="{{departments}}"></docCard>
+  </view>
+</view>
