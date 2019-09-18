@@ -11,27 +11,27 @@
   </view>
 
   <view class="section">
-    <view class="icon"></view>
+    <view class="icon"><image src=""></image></view>
     <view class="text">就诊人管理</view>
-    <view class="sign"></view>
+    <view class="sign"><image src=""></image></view>
   </view>
 
   <view class="section">
-    <view class="icon"></view>
+    <view class="icon"><image src=""></image></view>
     <view class="text">就诊记录</view>
-    <view class="sign"></view>
+    <view class="sign"><image src=""></image></view>
   </view>
 
   <view class="section">
-    <view class="icon"></view>
+    <view class="icon"><image src=""></image></view>
     <view class="text">身份认证</view>
-    <view class="sign"></view>
+    <view class="sign"><image src=""></image></view>
   </view>
 
   <view class="section">
-    <view class="icon"></view>
+    <view class="icon"><image src=""></image></view>
     <view class="text">设置</view>
-    <view class="sign"></view>
+    <view class="sign"><image src=""></image></view>
   </view>
 
   

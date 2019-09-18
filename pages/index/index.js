@@ -17,7 +17,10 @@ Page({
     duration: 1000,
 
     departments: [
-      '/images/home0.png', '/images/home1.png', '/images/order0.png','/images/order1.png'
+      { name: "内科", pictrue: '/images/home0.png'},
+      { name: "外科", pictrue: '/images/home1.png'},
+      { name: "骨科", pictrue: '/images/order0.png'},
+      { name: "神经科", pictrue: '/images/order1.png'}
     ]
   },
 

@@ -20,8 +20,8 @@
     </view>
     <view class="departments">
       <view class="department" wx:for="{{departments}}" wx:key="index">
-        <image src="{{item}}"/>
-        <view class="dpmName">{{index}}</view>
+        <image src="{{item.pictrue}}"/>
+        <view class="dpmName">{{item.name}}</view>
       </view>
     </view>
   </view>
