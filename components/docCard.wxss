@@ -3,22 +3,22 @@
 .container{
   position: relative;
   border-bottom: 1px solid gray;
-  height: 200rpx;
-  width: 100%;
+  height: 150rpx;
+  margin: 0 20rpx 0 20rpx;
 }
 
 .headPhoto{
   position: absolute;
   top: 0px;
   left: 0px;
-  height: 150rpx;
-  width: 150rpx;
+  height: 120rpx;
+  width: 120rpx;
   border-radius: 50%;
 }
 
 .header{
   position: absolute;
-  left: 150rpx;
+  left: 130rpx;
   top: 0px;
   width: 300rpx;
   display: flex;
@@ -27,15 +27,15 @@
 }
 
 .docName{
-  font-size: 24px;
+  font-size: 50rpx;
   font-weight: bold;
 }
 
 .introduce{
   position: absolute;
-  left: 150rpx;
-  top:80rpx;
-  height: 114rpx;
+  left: 130rpx;
+  top:70rpx;
+  height: 80rpx;
   /* border: 1px solid red; */
   display: flex;
   align-items: flex-start;
@@ -47,7 +47,7 @@
   font-size: 28rpx;
 
   -webkit-box-orient: vertical;
-  -webkit-line-clamp:3;
+  -webkit-line-clamp:2;
 
 
 }

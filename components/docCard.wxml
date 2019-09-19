@@ -8,7 +8,7 @@
       <view>{{department}}</view>
     </view>
     <view class="introduce">
-      {{introduce}}
+      　　{{introduce}}
     </view>
   </view>
 </docCard>

@@ -49,7 +49,7 @@
   <view class="symptom">
     <view style="font-weight: bold;">症状描述：</view>
     <view class="symptomInput">
-      <input placeholder="请对您的症状作简单描述" auto-focus/>
+      <input placeholder="请对您的症状作简单描述" style="height:300rpx;"/>
     </view>
   </view>
 
