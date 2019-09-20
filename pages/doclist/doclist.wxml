@@ -9,6 +9,6 @@
     </picker>
   </view>
   <view class="doclist">
-    <docCard wx:for="123456"></docCard>
+    <docCard wx:for="123456" bindtap="tapDocCard"></docCard>
   </view>
 </view>

@@ -68,5 +68,11 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+
+  tapDocCard: function (event) {
+    wx.navigateTo({
+      url: '/pages/docinfo/docinfo',
+    })
   }
 })

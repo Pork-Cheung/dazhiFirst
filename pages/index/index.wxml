@@ -27,6 +27,6 @@
     <view class="header">
       <text>推荐医生</text>
     </view>
-    <docCard wx:for="123456"></docCard>
+    <docCard wx:for="123456" bindtap="tapDocCard"></docCard>
   </view>
 </view>

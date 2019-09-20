@@ -1,1 +1,31 @@
 /* pages/docinfo/docinfo.wxss */
+
+.headInfo{
+  height: 200rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 25rpx 0 25rpx;
+  background-color:#f8f8f8;
+}
+
+.headInfo_portrait{
+  height: 150rpx;
+  width: 150rpx;
+  border-radius: 50%;
+}
+
+.headInfo_infomation{
+  margin-left: 25rpx;
+}
+
+.section{
+  border: 1px solid #bbbbbb;
+  margin: 30rpx 0 30rpx 0;
+}
+
+.section_name{
+  font-weight: bold;
+  border-bottom: 1px solid #bbbbbb;
+}

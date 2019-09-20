@@ -32,5 +32,11 @@ Page({
     wx.navigateTo({
       url: '/pages/dpmlist/dpmlist',
     })
+  },
+
+  tapDocCard: function (event) {
+    wx.navigateTo({
+      url: '/pages/docinfo/docinfo',
+    })
   }
 })

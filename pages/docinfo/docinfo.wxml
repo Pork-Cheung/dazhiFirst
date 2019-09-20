@@ -1,2 +1,22 @@
 <!--pages/docinfo/docinfo.wxml-->
-<text>pages/docinfo/docinfo.wxml</text>
+<view class="container">
+  <view class="headInfo">
+    <view class="headInfo_portrait">
+      <image src="/images/headPhto.jpg" style="height: 100%; width: 100%; border-radius: 50%;"></image>
+    </view>
+    <view class="headInfo_infomation">
+      <view>{{docName}}</view>
+      <view>{{docTitle}}</view>
+      <view>{{docDpm}}</view>
+    </view>
+  </view>
+  <view class="docSchedule"></view>
+  <view class="section">
+    <view class="section_name">专业擅长</view>
+    <scroll-view class="section_content" scroll-y style="height: 200rpx;">　　{{docProfessional}}</scroll-view>
+  </view>
+  <view class="section">
+    <view class="section_name">医生简介</view>
+    <scroll-view class="section_content" scroll-y style="height: 200rpx;">　　{{docProfile}}</scroll-view>
+  </view>
+</view>
