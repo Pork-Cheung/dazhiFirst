@@ -1,0 +1,14 @@
+<!--pages/doclist/doclist.wxml-->
+<view class="container">
+
+  <view class="dpmlist">
+    <picker bindchange="bindPickerChange" value="{{Index}}" range="{{departments}}" range-key="{{'name'}}">
+      <view class="picker">
+        {{departments[Index].name}}
+      </view>
+    </picker>
+  </view>
+  <view class="doclist">
+    <docCard wx:for="123456"></docCard>
+  </view>
+</view>

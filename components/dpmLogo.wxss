@@ -1,0 +1,19 @@
+/* components/dpmLogo.wxss */
+
+.department{
+  height: 150rpx;
+  width: 120rpx;
+  position: relative;
+}
+.department image{
+  width: 120rpx;  
+  height: 120rpx;
+}
+.dpmName{
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}

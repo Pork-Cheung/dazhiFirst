@@ -1,0 +1,8 @@
+<!--components/dpmLogo.wxml-->
+
+<dpmLogo>
+  <view class="department">
+    <image src="{{pictrue}}"/>
+    <view class="dpmName">{{name}}</view>
+  </view>
+</dpmLogo>

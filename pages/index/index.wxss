@@ -34,7 +34,7 @@
   justify-content: space-around;
 }
 
-.department{
+/* .department{
   height: 150rpx;
   width: 120rpx;
   position: relative;
@@ -50,7 +50,7 @@
   display: flex;
   justify-content: center;
   font-weight: bold;
-}
+} */
 .searchbar{
   position: absolute;
   top: 0px;

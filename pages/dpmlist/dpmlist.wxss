@@ -1,0 +1,17 @@
+/* pages/dpmlist/dpmlist.wxss */
+
+.list{
+  margin: 30rpx 30rpx 30rpx 30rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.listEachLine{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}

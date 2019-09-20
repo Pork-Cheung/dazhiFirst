@@ -1,7 +1,5 @@
 {
   "usingComponents": {
-    "docCard": "/components/docCard",
-
     "dpmLogo": "/components/dpmLogo"
   }
 }

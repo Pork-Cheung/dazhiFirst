@@ -1,0 +1,18 @@
+<!--pages/dpmlist/dpmlist.wxml-->
+<!-- 引入自定义函数 -->
+<wxs module="filters" src="../toInt.wxs"></wxs>
+
+<view class="container">
+
+  <view class="list">
+    <block wx:for="{{departmentss.length % 4 == 0 ? departmentss.length/4 : filters.toFix(departmentss.length/4) + 1}}" wx:for-index="i">
+      <view class="listEachLine">
+        <block wx:for="{{4}}" wx:for-index="j">
+          <dpmLogo bindtap="tapDpmLogo"></dpmLogo>
+        </block>
+      </view>
+      
+    </block>
+  </view>
+</view>
+

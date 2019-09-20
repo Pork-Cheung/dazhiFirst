@@ -10,19 +10,16 @@
         </swiper-item>
       </block>
     </swiper>
-    <mp-searchbar class="searchbar" placeholder="请输入关键字搜索" bindselectresult="selectResult" search="{{search}}"></mp-searchbar>
+    <!-- <mp-searchbar class="searchbar" placeholder="请输入关键字搜索" bindselectresult="selectResult" search="{{search}}"></mp-searchbar> -->
   </view>
 
   <view class="section">
     <view class="header">
       <text>热门科室</text>
-      <text class="header-title-right">更多科室</text>
+      <text class="header-title-right"  bindtap="tapMoreDpm">更多科室</text>
     </view>
     <view class="departments">
-      <view class="department" wx:for="{{departments}}" wx:key="index">
-        <image src="{{item.pictrue}}"/>
-        <view class="dpmName">{{item.name}}</view>
-      </view>
+      <dpmLogo wx:for="1234" ></dpmLogo>
     </view>
   </view>
 
@@ -30,6 +27,6 @@
     <view class="header">
       <text>推荐医生</text>
     </view>
-    <docCard wx:for="{{departments}}"></docCard>
+    <docCard wx:for="123456"></docCard>
   </view>
 </view>

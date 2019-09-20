@@ -2,7 +2,10 @@
   "pages": [
     "pages/index/index",
     "pages/makeappointment/makeappointment",
-    "pages/user/user"
+    "pages/user/user",
+    "pages/dpmlist/dpmlist",
+    "pages/doclist/doclist",
+    "pages/docinfo/docinfo"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -10,7 +13,6 @@
     "navigationBarTitleText": "易达预约挂号平台",
     "navigationBarTextStyle": "black"
   },
-
   "tabBar": {
     "color": "#7A7E83",
     "selectedColor": "#3cc51f",
@@ -37,7 +39,5 @@
       }
     ]
   },
-  
-
   "sitemapLocation": "sitemap.json"
 }
