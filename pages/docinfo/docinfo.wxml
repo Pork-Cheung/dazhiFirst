@@ -19,4 +19,8 @@
     <view class="section_name">医生简介</view>
     <scroll-view class="section_content" scroll-y style="height: 200rpx;">　　{{docProfile}}</scroll-view>
   </view>
+
+  <view class="btnMakeAppointment">
+    <image src="/images/addicon.png" bindtap="tapAddIcon"></image>
+  </view>
 </view>

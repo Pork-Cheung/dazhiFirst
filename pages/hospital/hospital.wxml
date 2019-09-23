@@ -1,0 +1,7 @@
+<!--pages/hospital/hospital.wxml-->
+<view class="container" style="height: {{screenHeight}};">
+  <view class="header">1</view>
+  <view class="introduce">2
+    <scroll-view class="introduce_content">3</scroll-view>
+  </view>
+</view>

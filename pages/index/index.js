@@ -38,5 +38,11 @@ Page({
     wx.navigateTo({
       url: '/pages/docinfo/docinfo',
     })
+  },
+
+  tapTopSwiper: function (event) {
+    wx.navigateTo({
+      url: '/pages/hospital/hospital',
+    })
   }
 })

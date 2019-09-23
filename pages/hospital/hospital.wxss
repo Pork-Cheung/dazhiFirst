@@ -1,0 +1,16 @@
+/* pages/hospital/hospital.wxss */
+.container{
+  height: 100%;
+  width: 100%;
+  background-color: rebeccapurple;
+}
+
+.header{
+  height: 30%;
+  background-color: red;
+}
+
+.introduce{
+  height: 70%;
+  background-color: blue;
+}

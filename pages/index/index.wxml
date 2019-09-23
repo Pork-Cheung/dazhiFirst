@@ -1,7 +1,7 @@
 <!--index.wxml-->
 <view class="container">
   <!-- 首页幻灯片 -->
-  <view class="top">
+  <view class="top" bindtap="tapTopSwiper">
     <swiper class="topSwiper" indicator-dots="{{indicatorDots}}" circular="{{circular}}"
       autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
       <block wx:for="{{imgUrls}}" wx:key="{{index}}">

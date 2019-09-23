@@ -29,3 +29,17 @@
   font-weight: bold;
   border-bottom: 1px solid #bbbbbb;
 }
+
+.btnMakeAppointment{
+  position: absolute;
+  bottom: 200rpx;
+  right: 20rpx;
+  height: 100rpx;
+  width: 100rpx;
+}
+
+.btnMakeAppointment image{
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}

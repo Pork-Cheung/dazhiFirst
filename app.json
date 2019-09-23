@@ -5,7 +5,8 @@
     "pages/user/user",
     "pages/dpmlist/dpmlist",
     "pages/doclist/doclist",
-    "pages/docinfo/docinfo"
+    "pages/docinfo/docinfo",
+    "pages/hospital/hospital"
   ],
   "window": {
     "backgroundTextStyle": "light",
