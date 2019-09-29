@@ -1,43 +1,11 @@
-// pages/user/user.js
+// pages/user/identify/identify.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    iflogin: false,
-    patientName: getApp().globalData.patientName,
-    patientID: getApp().globalData.patientID,
-    funName: ['就诊人管理','就诊记录','身份认证','设置']
-  },
 
-  tapToLogin: function() {
-    this.setData({iflogin : true});
-    // this.onLoad();
-  },
-
-  tapPatientManage: function (event) {
-    wx.navigateTo({
-      url: 'patientManage/patientManage',
-    })
-  },
-
-  tapVisitingRecord: function (event) {
-    wx.navigateTo({
-      url: 'patientManage/patientManage',
-    })
-  },
-
-  tapIdentify: function (event) {
-    wx.navigateTo({
-      url: 'patientManage/patientManage',
-    })
-  },
-
-  tapSetting: function (event) {
-    wx.navigateTo({
-      url: 'patientManage/patientManage',
-    })
   },
 
   /**

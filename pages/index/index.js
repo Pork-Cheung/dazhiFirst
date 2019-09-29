@@ -44,5 +44,11 @@ Page({
     wx.navigateTo({
       url: '/pages/hospital/hospital',
     })
+  },
+
+  tapDpmLogo: function (event) {
+    wx.navigateTo({
+      url: '/pages/doclist/doclist',
+    })
   }
 })

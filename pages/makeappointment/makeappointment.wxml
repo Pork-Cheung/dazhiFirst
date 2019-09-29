@@ -55,7 +55,7 @@
 
   <view style="display:flex;flex-direction:row;justify-content:center;">
     <button class="submitButton" hover-class="button-hover"> 
-      <image src="/images/user0.png"></image>
+      <image src="/images/add1.png"></image>
     </button>
   </view>
 </view>

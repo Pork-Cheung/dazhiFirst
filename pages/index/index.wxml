@@ -19,7 +19,7 @@
       <text class="header-title-right"  bindtap="tapMoreDpm">更多科室</text>
     </view>
     <view class="departments">
-      <dpmLogo wx:for="1234" ></dpmLogo>
+      <dpmLogo wx:for="1234" bindtap="tapDpmLogo"></dpmLogo>
     </view>
   </view>
 

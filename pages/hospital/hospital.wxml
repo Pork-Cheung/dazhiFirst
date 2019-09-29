@@ -1,7 +1,9 @@
 <!--pages/hospital/hospital.wxml-->
-<view class="container" style="height: {{screenHeight}};">
-  <view class="header">1</view>
-  <view class="introduce">2
-    <scroll-view class="introduce_content">3</scroll-view>
+<view class="container">
+  <view class="header">
+    <image src="/images/hospital.jpg" style="height: 100%; width: 100%;"></image>
+  </view>
+  <view class="introduce">
+    <scroll-view scroll-y="true" class="introduce_content">　　{{hospitalInfo}}</scroll-view>
   </view>
 </view>

@@ -2,11 +2,14 @@
 <view class="container">
 
   <view class="dpmlist">
-    <picker bindchange="bindPickerChange" value="{{Index}}" range="{{departments}}" range-key="{{'name'}}">
-      <view class="picker">
-        {{departments[Index].name}}
-      </view>
-    </picker>
+    <view class="tips">请选择预约科室：</view>
+    <view class="picker">
+      <picker bindchange="bindPickerChange" value="{{Index}}" range="{{departments}}" range-key="{{'name'}}">
+        <view class="pickerContent">
+          {{departments[Index].name}}
+        </view>
+      </picker>
+    </view>
   </view>
   <view class="doclist">
     <docCard wx:for="123456" bindtap="tapDocCard"></docCard>

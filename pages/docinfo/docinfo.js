@@ -66,5 +66,11 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+
+  tapAddIcon: function (event) {
+    wx.switchTab({
+      url: '/pages/makeappointment/makeappointment',
+    })
   }
 })

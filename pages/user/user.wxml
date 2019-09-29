@@ -1,37 +1,42 @@
 
 <view class="container">
-  <view class="headInfo">
-    <view class="headPhoto">
-      <image src="/images/headPhto.jpg" style="height: 100%; width: 100%; border-radius: 50%;"></image>
+  <view class="head">
+    <view wx:if="{{iflogin}}" class="headInfo">
+      <view class="headPhoto">
+        <image src="/images/headPhto.jpg" style="height: 100%; width: 100%; border-radius: 50%;"></image>
+      </view>
+      <view class="info">
+        <view>{{patientName}}</view>
+        <view>{{patientID}}</view>
+      </view>
     </view>
-    <view class="info">
-      <view>{{patientName}}</view>
-      <view>{{patientID}}</view>
+    <view wx:else class="toLogin">
+      <view bindtap="tapToLogin">首次使用请登记就诊人及完成身份认证</view>
     </view>
   </view>
 
-  <view class="section">
-    <view class="icon"><image src=""></image></view>
+  <view class="section" id="patientManage" bindtap="tapPatientManage">
+    <view class="icon"><image src="/images/users.png"></image></view>
     <view class="text">就诊人管理</view>
-    <view class="sign"><image src=""></image></view>
+    <view class="sign"><image src="/images/right.png"></image></view>
   </view>
 
-  <view class="section">
-    <view class="icon"><image src=""></image></view>
+  <view class="section" id="visitingRecord" bindtap="tapVisitingRecord">
+    <view class="icon"><image src="/images/orders.png"></image></view>
     <view class="text">就诊记录</view>
-    <view class="sign"><image src=""></image></view>
+    <view class="sign"><image src="/images/right.png"></image></view>
   </view>
 
-  <view class="section">
-    <view class="icon"><image src=""></image></view>
+  <view class="section" id="identify" bindtap="tapIdentify">
+    <view class="icon"><image src="/images/successBlack.png"></image></view>
     <view class="text">身份认证</view>
-    <view class="sign"><image src=""></image></view>
+    <view class="sign"><image src="/images/right.png"></image></view>
   </view>
 
-  <view class="section">
-    <view class="icon"><image src=""></image></view>
+  <view class="section" id="setting" bindtap="tapSetting">
+    <view class="icon"><image src="/images/set.png"></image></view>
     <view class="text">设置</view>
-    <view class="sign"><image src=""></image></view>
+    <view class="sign"><image src="/images/right.png"></image></view>
   </view>
 
   

@@ -6,7 +6,11 @@
     "pages/dpmlist/dpmlist",
     "pages/doclist/doclist",
     "pages/docinfo/docinfo",
-    "pages/hospital/hospital"
+    "pages/hospital/hospital",
+    "pages/user/patientManage/patientManage",
+    "pages/user/visitingRecord/visitingRecord",
+    "pages/user/setting/setting",
+    "pages/user/identify/identify"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -1,11 +1,12 @@
 /* pages/dpmlist/dpmlist.wxss */
-
+page{
+  background-color: #f8f8f8;
+}
 .list{
   margin: 30rpx 30rpx 30rpx 30rpx;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
 }
 
 .listEachLine{

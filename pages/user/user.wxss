@@ -1,12 +1,26 @@
 /* pages/user/user.wxss */
-.headInfo{
+
+.head{
   height: 200rpx;
+  background-color:#A0DCE3;
+}
+.toLogin{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: italic;
+  color: white;
+  text-decoration: underline;
+}
+
+.headInfo{
+  height: 100%;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
   padding: 0 25rpx 0 25rpx;
-  background-color:#A0DCE3;
 }
 
 .headPhoto{
@@ -29,10 +43,15 @@
   position: relative;
 }
 
+.section image{
+  height: 100%;
+  width: 100%;
+}
+
 .icon{
   height: 80rpx;
   width: 80rpx;
-  background-color:rgb(55, 73, 75);
+  /* background-color:rgb(55, 73, 75); */
 }
 
 .text{
@@ -52,5 +71,5 @@
   top: 35rpx;
   height: 30rpx;
   width: 30rpx;
-  background-color: rgb(55, 73, 75);
+  /* background-color: rgb(55, 73, 75); */
 }

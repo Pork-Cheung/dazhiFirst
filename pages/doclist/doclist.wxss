@@ -1,6 +1,19 @@
 /* pages/doclist/doclist.wxss */
 
+.dpmlist{
+  border-bottom: 30rpx solid #f8f8f8;
+}
+
+.tips{
+background-color: #f8f8f8;
+font-weight: bold;
+}
+
 .picker{
+  padding: 0 10px;
+}
+
+.pickerContent{
   border: 1px solid #BBBBBB;
   background-color: #FFFFFF;
   border-radius: 5px;
