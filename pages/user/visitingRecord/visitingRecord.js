@@ -5,7 +5,8 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    patientName: '张大三',
+    patientID: '123456789123456'
   },
 
   /**

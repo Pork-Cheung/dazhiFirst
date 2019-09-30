@@ -11,7 +11,7 @@ Component({
    * 组件的初始数据
    */
   data: {
-    headPhoto: "/images/home1.png",
+    headPhoto: "/images/headPhto.jpg",
     docName: "名称",
     docTitle: "叫兽",
     department: "骨科",

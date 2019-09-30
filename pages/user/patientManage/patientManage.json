@@ -1,3 +1,5 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "patientCard": "/components/patientCard"
+  }
 }

@@ -1,2 +1,12 @@
 <!--pages/user/visitingRecord/visitingRecord.wxml-->
-<text>pages/user/visitingRecord/visitingRecord.wxml</text>
+<view class="container">
+  <view class="head">
+    <view class="head_left">就诊人：{{patientName}}（{{patientID}}）</view>
+    <view class="head_right">
+      <image src="/images/exchange.png" style="height: 30rpx; width: 30rpx; margin-left: 10rpx;"></image>
+      <text>切换</text>
+    </view>
+  </view>
+
+
+</view>

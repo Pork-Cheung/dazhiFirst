@@ -1,0 +1,13 @@
+<!--pages/user/patientManage/addPatient.wxml-->
+<view class="container">
+
+
+  <form bindsubmit="formSubmit">
+    <view class="infoArea"><text>姓　　名：</text><input name="name"></input></view>
+    <view class="infoArea"><text>身份证号：</text><input name="ID"></input></view>
+    <view class="infoArea"><text>手机号码：</text><input name="telephoneNo"></input></view>
+    <view>
+      <button formType="submit" class="btn_submit">确　认</button>
+    </view>
+  </form>
+</view>

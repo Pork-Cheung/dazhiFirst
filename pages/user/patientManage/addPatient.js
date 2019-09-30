@@ -1,4 +1,4 @@
-// pages/user/patientManage/patientManage.js
+// pages/user/patientManage/addPatient.js
 Page({
 
   /**
@@ -8,11 +8,10 @@ Page({
 
   },
 
-  tapAddPatient: function(event){
-    wx.navigateTo({
-      url: 'addPatient'
-    })
+  formSubmit: function(e){
+    console.log('form发生了submit事件，携带数据为：', e.detail.value)
   },
+
   /**
    * 生命周期函数--监听页面加载
    */

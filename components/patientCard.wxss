@@ -1,0 +1,36 @@
+/* components/patientCard.wxss */
+.container{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #8a8a8a;
+  border-radius: 20rpx;
+  width:100%;
+  height: 300rpx;
+  background-color: #ffffff;
+}
+
+.cardID{
+  padding-left: 10%;
+  height: 22%;
+  width: 90%;
+  border-bottom: 1px solid #8a8a8a;
+  display: flex;
+  align-items: center;
+}
+
+.content{
+  padding-left: 20%;
+  width: 80%;
+  height: 60%;
+  border-bottom: 1px solid #8a8a8a;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.status{
+  display: flex;
+  flex-direction: row-reverse;
+  height: 20%;
+  align-items: center;
+}

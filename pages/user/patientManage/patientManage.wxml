@@ -1,2 +1,14 @@
 <!--pages/user/patientManage/patientManage.wxml-->
-<text>pages/user/patientManage/patientManage.wxml</text>
+<view class="container">
+  <view wx:for="123" class="patientCard">
+    <patientCard></patientCard>
+  </view>
+
+  <view class="addPatient" bindtap="tapAddPatient">
+    <view style="display: flex; align-items: center; padding-left: 20rpx;">
+      <image src="/images/add.png" style="height : 40rpx; width : 40rpx; margin-right: 10rpx;"></image>
+      添加就诊人
+    </view>
+    <view style="padding-right: 20rpx;"><image src="/images/right2.png" style="height : 40rpx; width : 40rpx;"></image></view>
+  </view>
+</view>

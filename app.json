@@ -10,7 +10,9 @@
     "pages/user/patientManage/patientManage",
     "pages/user/visitingRecord/visitingRecord",
     "pages/user/setting/setting",
-    "pages/user/identify/identify"
+    "pages/user/identify/identify",
+    "components/patientCard",
+    "pages/user/patientManage/addPatient"
   ],
   "window": {
     "backgroundTextStyle": "light",

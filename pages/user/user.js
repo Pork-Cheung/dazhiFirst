@@ -11,32 +11,37 @@ Page({
     funName: ['就诊人管理','就诊记录','身份认证','设置']
   },
 
+  // 登录及登记就诊人
   tapToLogin: function() {
     this.setData({iflogin : true});
     // this.onLoad();
   },
-
+  
+  // 进入‘就诊人管理’页面
   tapPatientManage: function (event) {
     wx.navigateTo({
       url: 'patientManage/patientManage',
     })
   },
 
+  // 进入‘就诊记录’页面
   tapVisitingRecord: function (event) {
     wx.navigateTo({
-      url: 'patientManage/patientManage',
+      url: 'visitingRecord/visitingRecord',
     })
   },
-
+  
+  // 进入‘身份认证’页面
   tapIdentify: function (event) {
     wx.navigateTo({
-      url: 'patientManage/patientManage',
+      url: 'identify/identify',
     })
   },
 
+  // 进入‘设置’页面
   tapSetting: function (event) {
     wx.navigateTo({
-      url: 'patientManage/patientManage',
+      url: 'setting/setting',
     })
   },
 

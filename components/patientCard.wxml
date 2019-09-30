@@ -1,0 +1,18 @@
+<!--components/patientCard.wxml-->
+
+<patientCard>
+  <view class="container">
+    <view class="cardID">
+      NO: {{patientInfo.ID}}
+    </view>
+    <view class="content">
+      <view>姓　　名:　{{patientInfo.name}}</view>
+      <view>身份证号:　{{patientInfo.ID}}</view>
+      <view>手机号码:　{{patientInfo.tel}}</view>
+    </view>
+    <view class="status">
+      <switch checked="{{default}}" bindchange="statusChange" style="zoom: .6; margin-left: 20rpx;"/>
+      <text wx:if="{{default}}">默认</text>
+    </view>
+  </view>
+</patientCard>
